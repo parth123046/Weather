@@ -12,8 +12,8 @@ const weather_body = document.querySelector('.weather-body');
 
 
 async function checkWeather(city){
-    const api_key = "abac91f70ce44c808d733552240708";
-    const url = `http://api.weatherapi.com/v1/current.json?key=<abac91f70ce44c808d733552240708>q=${city}`;
+    const api_key = "ab5d2e2cd068a0f3279c60725f94b9aa";
+    const url = `http://api.weatherapi.com/v1/current.json?key=<ab5d2e2cd068a0f3279c60725f94b9aa>q=${city}`;
 
     const weather_data = await fetch(`${url}`).then(response => response.json());
 
